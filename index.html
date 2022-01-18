@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <a id="top"></a>
+        <title>Spacestagram</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Image-sharing from the final frontier">
+        <!--viewport meta tag for responsive design-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link to css-->
+        <link href="main.css" rel="stylesheet" type="text/css"> 
+        <!--links to Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--wrapper div for all content displayed-->
+        <div id="wrap">    
+            <header>
+                <h1 id="appTitle">Spacestagram</h1> 
+            </header> 
+            <div id="filter">
+                <!--elect to dispay only liked photos-->
+                View Photos:
+                <select id="ddFilter" onchange="filterByLike();">
+                    <option>All</option>
+                    <option>Liked</option>
+                </select>   
+            </div>           
+
+            <main id="outputArea">
+                <!--item display area-->                 
+                <div id="displayOutput">
+                    <!--items to be dynamically displayed here-->
+                </div>
+            </main>                     
+            <footer>
+                <!--link to email-->
+                <a href="mailto:leahmcbos@gmail.com">Email Me</a>
+                <a href="#top">Back to Top</a>
+            </footer>   
+        </div>                
+        <!--Javascript-->
+        <script src="main.js"></script>
+    </body>
+</html>

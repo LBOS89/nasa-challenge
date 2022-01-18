@@ -1,0 +1,101 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+header {
+    max-width: 100%;
+}
+
+#wrap { 
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#appTitle { 
+    font-family: 'Space Mono', monospace;
+    font-size: 75px;
+    text-align: center;
+}
+
+#filter {
+    float: left;
+    margin-left: 20px;  
+    margin-bottom: 15px;  
+    font-size: 30px;
+}
+
+#ddFilter {
+    height: 40px;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+#outputArea { 
+    clear: both;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+#displayOutput {
+    max-width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.post {
+    max-width: 100%; 
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.postimage {
+    width: 100%; 
+}
+
+.likebutton { 
+    width: 100%;
+    margin: 20px auto;
+    background-color: #0A0F52;
+    border: none;
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.unlikebutton { 
+    width: 100%;
+    margin: 20px auto;
+    background-color: #8A7B7B;
+    border: none;
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer {    
+    padding: 4px;
+    max-width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    clear: both;
+}
+
+footer a { 
+    color: #0A0F52;    
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    padding: 4px 15px;
+}
